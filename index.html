@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Axora 트레이서빌리티 MVP</title>
-  <meta http-equiv="refresh" content="2; url=AxoraGithub.html">
   <style>
     body {
       margin: 0;
@@ -23,11 +22,12 @@
       padding: 24px;
       max-width: 720px;
       width: 92%;
+      text-align: center;
     }
     h1 { margin: 0 0 12px 0; color: #00FFAE; }
     a { color: #00FFAE; text-decoration: none; }
     .muted { color: #A8B0BD; }
-    ul { line-height: 1.9; }
+    ul { line-height: 1.9; text-align: left; display: inline-block; }
   </style>
 </head>
 <body>
@@ -41,5 +41,13 @@
     </ul>
     <p class="muted">문서가 보이지 않으면 위 링크를 직접 클릭해 주세요.</p>
   </div>
+
+  <script>
+    // redirect automatically after 2 seconds
+    setTimeout(() => {
+      window.location.href = "AxoraGithub.html";
+    }, 2000);
+  </script>
 </body>
 </html>
+
